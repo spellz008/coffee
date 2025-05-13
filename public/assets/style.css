@@ -4,5 +4,168 @@
     box-sizing: border-box;
 }
 body{
-    background-color: redg;
+    background-color: #381c10;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    padding:0.5rem;
+    font-family: "Roboto", sans-serif;
+    color:white;
+}
+body{
+    overflow-x: hidden;
+}
+nav ul{
+    display:flex;
+    gap:4rem;
+}
+nav ul li{
+    list-style-type: none;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+nav ul li a:hover{
+    background-color: #69331c;
+    padding: 0.2rem 0.6rem;
+    border-radius: 1rem;
+    transition: 0.3s ease;
+}
+
+.navbar i{
+    display:none;
+}
+
+img{
+    max-width:100%;
+}
+  .product1{
+    margin-top: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+ } 
+   .product1 h3{
+    font-size: 2rem;
+    color:#C08552;
+ }
+  .product1 h2{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    min-width: 17rem;
+    margin-bottom: 0.5rem;
+ }
+ .product1 p{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.5rem;
+ } 
+  .navigation{
+    display:flex;
+    gap:0.5rem;
+    justify-content: center;
+ } 
+ .open{
+    background-color: #cA7B42;
+    padding:0.5rem 1rem;
+    border:none;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+ }
+ .open:hover{
+    background-color: #f37a29b7;  
+    cursor: pointer; 
+ }
+ .close{
+    background:transparent;
+    padding:0.5rem 1rem;
+    border:2px solid white;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+ }
+ .close:hover{
+    background-color: #cA7B42;
+    cursor: pointer;
+    border: none;
+
+ }  
+
+
+ @media(max-width:700px){
+    .navbar i{
+        display:block;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    nav ul {
+        display:none;
+    }
+    
+} 
+@media(min-width:900px){
+    .products{
+        display:flex;
+        gap:1rem;
+        max-width: 800px;
+        margin: auto;
+    }
+    .product2 img{
+        max-width:30rem;
+    }
+    .product1{
+        margin-top: 12rem;
+    }
+    .product1 h3{
+        font-size: 2rem;
+        color:#C08552;
+        font-family: "Tagesschrift", system-ui;
+        margin-bottom: 0.5rem;
+    }
+    .product1 h2{
+        color:#ffffff;
+        font-size: 1.8rem;
+        font-family: "Rubik", sans-serif;
+    }
+    .product1 p{
+        font-family: "Rubik", sans-serif;
+        color:white;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .navigation{
+        display:flex;
+        gap:0.5rem;
+        margin-top: 0.5rem;
+    }
+    .open{
+        background-color: #cA7B42;
+        padding:0.5rem 1rem;
+        border:none;
+        border-radius: 1.2rem;
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+     }
+     .open:hover{
+        background-color: #f37a29b7;  
+        cursor: pointer; 
+     }
+     .close{
+        background:transparent;
+        padding:0.5rem 1rem;
+        border:2px solid white;
+        border-radius: 1.2rem;
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+     }
+     .close:hover{
+        background-color: #cA7B42;
+        cursor: pointer;
+        border: none;
+    
+     } 
 }
